@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0' 
+pod 'SDWebImage', '~> 3.7.5'  
+pod 'AFNetworking', '~> 2.6.3' 
+pod 'Mantle', '~> 2.0.6' 
+pod 'Overcoat', '~> 3.2.1' #, '~> 4.0.0-beta.1'
+pod 'OHHTTPStubs' , '~> 4.7.0' 
