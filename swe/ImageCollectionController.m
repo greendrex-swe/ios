@@ -7,7 +7,9 @@
 //
 
 #import "ImageCollectionController.h"
-#import "ImageViewCell.h"
+#import "ImageViewCell.h" 
+
+#import "GDCategory.h"
 
 static NSString * const ImageCellIdentifier = @"ImageCell";
 
@@ -105,6 +107,8 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
         }
     }
     
+    toReturn = CGSizeMake(collectionView.bounds.size.height - insets.top - insets.bottom, collectionView.bounds.size.height - insets.top - insets.bottom);
+    
     return toReturn;
     
 }
@@ -137,6 +141,42 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
 -(void) pictureClicked:(UIImage *)image AtInnerRow:(NSInteger)innerCollectionViewRow OuterCollectionViewRow:(NSInteger)outerCollectionViewRow {
     [delegate pictureClicked:image AtInnerRow:innerCollectionViewRow OuterCollectionViewRow:outerCollectionViewRow];
 }
+
+
+- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(nonnull NSIndexPath *)indexPath
+{
+    NSLog(@"NAYYEK");
+    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    ImageViewCell *castedCell = (ImageViewCell *) cell;
+    
+    
+    NSArray *media = [delegate media:collectionView.tag];
+    GDCategory *category;
+    if ((media != nil) && (media.count > 0) && (indexPath.row < media.count)) {
+        category = media[indexPath.row];
+        
+        if (category.selectedCategory) {
+            castedCell.imageView.backgroundColor = [UIColor colorWithRed:0.922026 green:0.922026 blue:0.922026 alpha:1];
+        } else {
+            castedCell.imageView.backgroundColor = [UIColor grayColor];
+        }
+        
+        category.selectedCategory = !category.selectedCategory;
+    }
+
+
+}
+
+/*
+- (void)collectionView:(UICollectionView *)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    ImageViewCell *castedCell = (ImageViewCell *) cell;
+    castedCell.imageView.backgroundColor = [UIColor whiteColor];
+
+}
+*/
+
 
 
 @end

@@ -17,5 +17,6 @@
 @property (nonatomic) float maximumRating; //0 to 10
 @property (nonatomic) float rating;
 @property (nonatomic, copy) NSDate *lastEvaluation;
+@property (nonatomic) BOOL selectedCategory;
 
 @end

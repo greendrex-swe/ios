@@ -7,18 +7,36 @@
 //
 
 #import <UIKit/UIKit.h> 
-#import "ImageCollectionControllerDelegate.h"
+#import "ImageCollectionControllerDelegate.h" 
+#import "MapRelayDelegate.h"
 
 @class ImageCollectionController;
+@class MapViewController;
 
-@interface RestaurantDetailsViewController : UIViewController <ImageCollectionControllerDelegate>
+@interface RestaurantDetailsViewController : UIViewController <ImageCollectionControllerDelegate, MapRelayDelegate>
 
 @property (strong, nonatomic) ImageCollectionController *imageCollectionViewDsDlg;
 @property (weak, nonatomic) IBOutlet UICollectionView *imageCollectionView;
 
-@property (strong, nonatomic) NSArray *media;
+@property (weak, nonatomic) IBOutlet UIView *mapView;
+@property (weak, nonatomic) MapViewController *mapViewController;
 
 
+@property (weak, nonatomic) IBOutlet UILabel *restaurantView;
+@property (weak, nonatomic) IBOutlet UIButton *heartButton;
+@property (weak, nonatomic) IBOutlet UILabel *likesView;
+@property (weak, nonatomic) IBOutlet UILabel *costView;
+@property (weak, nonatomic) IBOutlet UILabel *hoursTodayView;
+@property (weak, nonatomic) IBOutlet UILabel *hoursView;
+@property (weak, nonatomic) IBOutlet UILabel *distanceView;
+
+@property (weak, nonatomic) IBOutlet UIButton *fwdAddressButton;
+@property (weak, nonatomic) IBOutlet UIButton *addressView;
+
+@property (weak, nonatomic) IBOutlet UIButton *phoneButton;
+@property (weak, nonatomic) IBOutlet UIButton *phoneView;
+
+@property (strong, nonatomic) NSArray *categories;
 @property (nonatomic) UIInterfaceOrientation newOrientation;
 
 @end

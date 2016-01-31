@@ -17,6 +17,7 @@
 @synthesize maximumRating;
 @synthesize rating;
 @synthesize lastEvaluation;
+@synthesize selectedCategory;
 
 
 + (NSDictionary*)JSONKeyPathsByPropertyKey {

@@ -84,12 +84,25 @@
         
         self.category.text = category.name;
         
+        if (category.selectedCategory) {
+            self.imageView.backgroundColor = [UIColor grayColor];
+        } else {
+            self.imageView.backgroundColor = [UIColor colorWithRed:0.922026 green:0.922026 blue:0.922026 alpha:1];
+        }
+        
     }
 }
 
 - (void)tapPic:(id)sender {
     //[delegate likeClicked:self.row success:self.toggleLikeSuccess];
     [delegate pictureClicked:self.imageView.image AtInnerRow:innerRow OuterCollectionViewRow:outerRow];
+}
+
+-(void)changeColor:(UIColor *) color {
+    NSLog(@"CHANGE COLOR");
+    self.backgroundColor = color;
+    self.imageView.backgroundColor = color;
+    [self layoutIfNeeded];
 }
 
 @end

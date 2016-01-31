@@ -40,6 +40,12 @@
 		D02106E71C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */; };
 		D02106E81C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */; };
 		D02106ED1C5DE59000F66FEB /* FredPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106EC1C5DE59000F66FEB /* FredPlaying.m */; };
+		D02107321C5DF54F00F66FEB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021072D1C5DF54F00F66FEB /* MapViewController.m */; };
+		D02107331C5DF54F00F66FEB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021072D1C5DF54F00F66FEB /* MapViewController.m */; };
+		D02107341C5DF54F00F66FEB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021072D1C5DF54F00F66FEB /* MapViewController.m */; };
+		D02107351C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
+		D02107361C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
+		D02107371C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
 		D0A194CD1C5D47F10044D061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CC1C5D47F10044D061 /* main.m */; };
 		D0A194D01C5D47F10044D061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CF1C5D47F10044D061 /* AppDelegate.m */; };
 		D0A194D91C5D47F10044D061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194D71C5D47F10044D061 /* Main.storyboard */; };
@@ -105,6 +111,11 @@
 		D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailsViewController.m; sourceTree = "<group>"; };
 		D02106EB1C5DE59000F66FEB /* FredPlaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FredPlaying.h; sourceTree = "<group>"; };
 		D02106EC1C5DE59000F66FEB /* FredPlaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FredPlaying.m; sourceTree = "<group>"; };
+		D021072D1C5DF54F00F66FEB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D021072E1C5DF54F00F66FEB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D021072F1C5DF54F00F66FEB /* MapRelayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRelayDelegate.h; sourceTree = "<group>"; };
+		D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		D02107311C5DF54F00F66FEB /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
 		D0A194C81C5D47F10044D061 /* swe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A194CC1C5D47F10044D061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0A194CE1C5D47F10044D061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -318,6 +329,34 @@
 			name = RestaurantDetailsViewController;
 			sourceTree = "<group>";
 		};
+		D02107381C5DF55800F66FEB /* MKMapView+ZoomLevel */ = {
+			isa = PBXGroup;
+			children = (
+				D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */,
+				D02107311C5DF54F00F66FEB /* MKMapView+ZoomLevel.h */,
+			);
+			name = "MKMapView+ZoomLevel";
+			sourceTree = "<group>";
+		};
+		D02107391C5DF56C00F66FEB /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D021072E1C5DF54F00F66FEB /* MapViewController.h */,
+				D021072D1C5DF54F00F66FEB /* MapViewController.m */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		D021073A1C5DF57700F66FEB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D02107391C5DF56C00F66FEB /* MapViewController */,
+				D02107381C5DF55800F66FEB /* MKMapView+ZoomLevel */,
+				D021072F1C5DF54F00F66FEB /* MapRelayDelegate.h */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		D0A194BF1C5D47F10044D061 = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +390,7 @@
 				D02106C51C5D951600F66FEB /* Navigation View Controller */,
 				D02106C61C5D954300F66FEB /* Root / 1st View Controller */,
 				D02106DE1C5DCEA900F66FEB /* RestaurantDetailsViewController */,
+				D021073A1C5DF57700F66FEB /* Map */,
 				D0A194D71C5D47F10044D061 /* Main.storyboard */,
 				D0A194DA1C5D47F10044D061 /* Assets.xcassets */,
 				D0A194DC1C5D47F10044D061 /* LaunchScreen.storyboard */,
@@ -585,7 +625,9 @@
 			files = (
 				D02106B31C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
 				D02106521C5D69C900F66FEB /* GDPromotion.m in Sources */,
+				D02107351C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021064B1C5D655200F66FEB /* GDCategory.m in Sources */,
+				D02107321C5DF54F00F66FEB /* MapViewController.m in Sources */,
 				D02106A31C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106ED1C5DE59000F66FEB /* FredPlaying.m in Sources */,
 				D02106481C5D654100F66FEB /* GDAddress.m in Sources */,
@@ -608,8 +650,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02106B41C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
+				D02107361C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021069D1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
 				D02106A71C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
+				D02107331C5DF54F00F66FEB /* MapViewController.m in Sources */,
 				D02106A41C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106E71C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
 				D02106D91C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
@@ -622,8 +666,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02106B51C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
+				D02107371C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021069E1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
 				D02106A81C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
+				D02107341C5DF54F00F66FEB /* MapViewController.m in Sources */,
 				D02106A51C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106E81C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
 				D02106DA1C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,

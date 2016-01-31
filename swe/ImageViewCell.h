@@ -25,5 +25,7 @@
 - (void)tapPic:(id)sender;
 -(void)loadCategory:(GDCategory *) category;
 
+-(void)changeColor:(UIColor *) color;
+
 
 @end

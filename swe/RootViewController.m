@@ -35,6 +35,7 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
     
     [self.imageCollectionView registerNib:[UINib nibWithNibName:@"ImageViewCell" bundle:nil] forCellWithReuseIdentifier:ImageCellIdentifier];
     //self.imageCollectionView.backgroundColor = [UIColor clearColor];
+    self.imageCollectionView.delaysContentTouches = NO;
     self.imageCollectionView.showsHorizontalScrollIndicator = NO;
     self.imageCollectionViewDsDlg = [[ImageCollectionController alloc] init];
     self.imageCollectionView.delegate = self.imageCollectionViewDsDlg;
