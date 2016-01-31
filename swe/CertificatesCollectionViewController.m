@@ -58,24 +58,15 @@ static NSString * const certificateItemCellIdentifier = @"CertificateItemViewCel
     
     //Mock Model
     GDLocation *temp1 = [[GDLocation alloc] init];
-    temp1.name = @"Fake Rest1";
+    temp1.name = @"B Corp";
     GDAddress *temp1Addr = [[GDAddress alloc] init];
-    temp1Addr.streetNumb = 1000;
-    temp1Addr.street = @"St. Antoine";
-    temp1.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/1779688_10153794548280511_1868529904_n.jpg?oh=a7ea967872846ede76cd73d8d2bb5ca0&oe=572523BA";
+    temp1Addr.streetNumb = 100;
+    temp1Addr.street = @"% reliable. This company has shown it's dedication to sustainability by allowing registered CCA engineers to conduct and appraisal at their establishment.";
+    temp1.iconUrl = @"https://code.org/images/hour_of_code_certificate.jpg";
     temp1.address = temp1Addr;
     
-    
-    GDLocation *temp2 = [[GDLocation alloc] init];
-    temp2.name = @"Fake Rest2";
-    GDAddress *temp2Addr = [[GDAddress alloc] init];
-    temp2Addr.streetNumb = 1000;
-    temp2Addr.street = @"St. Jacques";
-    temp2.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
 
-    temp2.address = temp2Addr;
-    
-    self.certificates = [[NSArray alloc] initWithObjects:temp1, temp2, nil];
+    self.certificates = [[NSArray alloc] initWithObjects:temp1, nil];
     
 }
 

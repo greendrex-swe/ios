@@ -87,7 +87,7 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
     self.categories = temp1.categories;
     
     
-    CLLocation *destination = [[CLLocation alloc] initWithLatitude:temp1.latitude longitude:temp1.longitude];
+    CLLocation *destination = [[CLLocation alloc] initWithLatitude:temp1.latitude longitude:    temp1.longitude];
     [self.mapViewController updateMapView:destination];
     [self.mapViewController replaceLocations:[[NSArray alloc] initWithObjects:temp1, nil]];
     
