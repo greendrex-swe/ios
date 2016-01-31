@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RestaurantItemViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CertificateItemViewCell" id="gTV-IL-0wX" userLabel="CertificateItemViewCell" customClass="CertificateItemViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="124"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tm1-LW-8Yl">
+                        <rect key="frame" x="0.0" y="0.0" width="124" height="124"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="124" id="ivo-Je-ohp"/>
+                            <constraint firstAttribute="width" constant="124" id="ydx-ff-Y1f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ae5-ZO-NNC">
+                        <rect key="frame" x="132" y="1" width="190" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="AE2-a8-wJB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-S9-Baa" userLabel="CertificateDescription">
+                        <rect key="frame" x="132" y="27" width="190" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="zZh-f9-3QG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Tm1-LW-8Yl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2va-v0-Hg8"/>
+                <constraint firstItem="hNz-S9-Baa" firstAttribute="trailing" secondItem="ae5-ZO-NNC" secondAttribute="trailing" id="MlE-2Q-M3e"/>
+                <constraint firstAttribute="trailing" secondItem="hNz-S9-Baa" secondAttribute="trailing" constant="103" id="NDq-xy-hwV"/>
+                <constraint firstAttribute="bottom" secondItem="Tm1-LW-8Yl" secondAttribute="bottom" id="U61-KR-yak"/>
+                <constraint firstItem="hNz-S9-Baa" firstAttribute="top" secondItem="ae5-ZO-NNC" secondAttribute="bottom" id="aeX-kc-O1N"/>
+                <constraint firstAttribute="trailing" secondItem="ae5-ZO-NNC" secondAttribute="trailing" constant="103" id="atB-oo-thH"/>
+                <constraint firstAttribute="trailing" secondItem="ae5-ZO-NNC" secondAttribute="trailing" constant="137" id="bHB-f9-mTE"/>
+                <constraint firstItem="Tm1-LW-8Yl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ikp-ou-3eJ"/>
+                <constraint firstItem="ae5-ZO-NNC" firstAttribute="leading" secondItem="Tm1-LW-8Yl" secondAttribute="trailing" constant="8" id="l7B-nA-JjL"/>
+                <constraint firstItem="ae5-ZO-NNC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="lYs-Y5-Lj4"/>
+                <constraint firstItem="hNz-S9-Baa" firstAttribute="leading" secondItem="ae5-ZO-NNC" secondAttribute="leading" id="yOf-UJ-4WL"/>
+            </constraints>
+            <size key="customSize" width="425" height="124"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="U61-KR-yak"/>
+                    <exclude reference="bHB-f9-mTE"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="certificateDescription" destination="hNz-S9-Baa" id="ieI-Tl-x2e"/>
+                <outlet property="certificateImage" destination="Tm1-LW-8Yl" id="yMw-Fj-eUv"/>
+                <outlet property="name" destination="ae5-ZO-NNC" id="Tw8-Vj-s5C"/>
+            </connections>
+            <point key="canvasLocation" x="234.5" y="223"/>
+        </collectionViewCell>
+    </objects>
+</document>

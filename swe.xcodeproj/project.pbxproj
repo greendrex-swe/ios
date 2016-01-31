@@ -46,6 +46,16 @@
 		D02107351C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
 		D02107361C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
 		D02107371C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */; };
+		D021073D1C5E6E8B00F66FEB /* GDCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = D021073C1C5E6E8B00F66FEB /* GDCertificate.m */; };
+		D021074A1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107431C5E739B00F66FEB /* CertificatesCollectionViewController.m */; };
+		D021074B1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107431C5E739B00F66FEB /* CertificatesCollectionViewController.m */; };
+		D021074C1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02107431C5E739B00F66FEB /* CertificatesCollectionViewController.m */; };
+		D09F57581C5E7D380010420E /* CertificateItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F57561C5E7D380010420E /* CertificateItemViewCell.m */; };
+		D09F57591C5E7D380010420E /* CertificateItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F57561C5E7D380010420E /* CertificateItemViewCell.m */; };
+		D09F575A1C5E7D380010420E /* CertificateItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F57561C5E7D380010420E /* CertificateItemViewCell.m */; };
+		D09F575B1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09F57571C5E7D380010420E /* CertificateItemViewCell.xib */; };
+		D09F575C1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09F57571C5E7D380010420E /* CertificateItemViewCell.xib */; };
+		D09F575D1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09F57571C5E7D380010420E /* CertificateItemViewCell.xib */; };
 		D0A194CD1C5D47F10044D061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CC1C5D47F10044D061 /* main.m */; };
 		D0A194D01C5D47F10044D061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CF1C5D47F10044D061 /* AppDelegate.m */; };
 		D0A194D91C5D47F10044D061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194D71C5D47F10044D061 /* Main.storyboard */; };
@@ -53,6 +63,15 @@
 		D0A194DE1C5D47F10044D061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194DC1C5D47F10044D061 /* LaunchScreen.storyboard */; };
 		D0A194E91C5D47F10044D061 /* sweTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194E81C5D47F10044D061 /* sweTests.m */; };
 		D0A194F41C5D47F10044D061 /* sweUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194F31C5D47F10044D061 /* sweUITests.m */; };
+		D0F28A2E1C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A271C5E907F00910605 /* DiscountsCollectionViewController.m */; };
+		D0F28A2F1C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A271C5E907F00910605 /* DiscountsCollectionViewController.m */; };
+		D0F28A301C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A271C5E907F00910605 /* DiscountsCollectionViewController.m */; };
+		D0F28A331C5E90F800910605 /* DiscountItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A321C5E90F800910605 /* DiscountItemViewCell.m */; };
+		D0F28A341C5E90F800910605 /* DiscountItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A321C5E90F800910605 /* DiscountItemViewCell.m */; };
+		D0F28A351C5E90F800910605 /* DiscountItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28A321C5E90F800910605 /* DiscountItemViewCell.m */; };
+		D0F28A371C5E911400910605 /* DiscountItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F28A361C5E911400910605 /* DiscountItemViewCell.xib */; };
+		D0F28A381C5E911400910605 /* DiscountItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F28A361C5E911400910605 /* DiscountItemViewCell.xib */; };
+		D0F28A391C5E911400910605 /* DiscountItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F28A361C5E911400910605 /* DiscountItemViewCell.xib */; };
 		DAD61D4EAD9CB182432A4278 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A978F58B106BC970DD7AB858 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +135,13 @@
 		D021072F1C5DF54F00F66FEB /* MapRelayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRelayDelegate.h; sourceTree = "<group>"; };
 		D02107301C5DF54F00F66FEB /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 		D02107311C5DF54F00F66FEB /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		D021073B1C5E6E8B00F66FEB /* GDCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCertificate.h; sourceTree = "<group>"; };
+		D021073C1C5E6E8B00F66FEB /* GDCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCertificate.m; sourceTree = "<group>"; };
+		D02107421C5E739B00F66FEB /* CertificatesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificatesCollectionViewController.h; sourceTree = "<group>"; };
+		D02107431C5E739B00F66FEB /* CertificatesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificatesCollectionViewController.m; sourceTree = "<group>"; };
+		D09F57551C5E7D380010420E /* CertificateItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateItemViewCell.h; sourceTree = "<group>"; };
+		D09F57561C5E7D380010420E /* CertificateItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateItemViewCell.m; sourceTree = "<group>"; };
+		D09F57571C5E7D380010420E /* CertificateItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateItemViewCell.xib; sourceTree = "<group>"; };
 		D0A194C81C5D47F10044D061 /* swe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A194CC1C5D47F10044D061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0A194CE1C5D47F10044D061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +156,11 @@
 		D0A194EF1C5D47F10044D061 /* sweUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sweUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A194F31C5D47F10044D061 /* sweUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sweUITests.m; sourceTree = "<group>"; };
 		D0A194F51C5D47F10044D061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F28A261C5E907F00910605 /* DiscountsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountsCollectionViewController.h; sourceTree = "<group>"; };
+		D0F28A271C5E907F00910605 /* DiscountsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountsCollectionViewController.m; sourceTree = "<group>"; };
+		D0F28A311C5E90F800910605 /* DiscountItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountItemViewCell.h; sourceTree = "<group>"; };
+		D0F28A321C5E90F800910605 /* DiscountItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountItemViewCell.m; sourceTree = "<group>"; };
+		D0F28A361C5E911400910605 /* DiscountItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscountItemViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +203,7 @@
 			children = (
 				D02106441C5D651700F66FEB /* Address */,
 				D02106451C5D652300F66FEB /* Categories */,
+				D021073E1C5E6E8F00F66FEB /* Certificate */,
 				D02106431C5D651100F66FEB /* Location */,
 				D021064F1C5D690300F66FEB /* Loyalty */,
 				D02106531C5D69CE00F66FEB /* Promotion */,
@@ -239,8 +271,8 @@
 		D02106A91C5D722700F66FEB /* UIImageView+WebRotationFix */ = {
 			isa = PBXGroup;
 			children = (
-				D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */,
 				D02106A01C5D721100F66FEB /* UIImageView+WebRotationFixed.h */,
+				D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */,
 			);
 			name = "UIImageView+WebRotationFix";
 			sourceTree = "<group>";
@@ -248,8 +280,8 @@
 		D02106AA1C5D723200F66FEB /* UIImageView+OrientationFix */ = {
 			isa = PBXGroup;
 			children = (
-				D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */,
 				D02106A21C5D721100F66FEB /* UIImage+OrientationFix.h */,
+				D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */,
 			);
 			name = "UIImageView+OrientationFix";
 			sourceTree = "<group>";
@@ -294,7 +326,6 @@
 			children = (
 				D02106C01C5D817F00F66FEB /* RootViewController.h */,
 				D02106C11C5D817F00F66FEB /* RootViewController.m */,
-				D02106981C5D719300F66FEB /* ImageCollectionViewController */,
 				D02106D41C5DA2D900F66FEB /* Restaurants View */,
 			);
 			name = "Root / 1st View Controller";
@@ -357,6 +388,45 @@
 			name = Map;
 			sourceTree = "<group>";
 		};
+		D021073E1C5E6E8F00F66FEB /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				D021073B1C5E6E8B00F66FEB /* GDCertificate.h */,
+				D021073C1C5E6E8B00F66FEB /* GDCertificate.m */,
+			);
+			name = Certificate;
+			sourceTree = "<group>";
+		};
+		D021074D1C5E73A800F66FEB /* Certificates View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D02107421C5E739B00F66FEB /* CertificatesCollectionViewController.h */,
+				D02107431C5E739B00F66FEB /* CertificatesCollectionViewController.m */,
+				D021074E1C5E73B300F66FEB /* Certificate Item Cell */,
+			);
+			name = "Certificates View Controller";
+			sourceTree = "<group>";
+		};
+		D021074E1C5E73B300F66FEB /* Certificate Item Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D09F57551C5E7D380010420E /* CertificateItemViewCell.h */,
+				D09F57561C5E7D380010420E /* CertificateItemViewCell.m */,
+				D09F57571C5E7D380010420E /* CertificateItemViewCell.xib */,
+			);
+			name = "Certificate Item Cell";
+			sourceTree = "<group>";
+		};
+		D09F576D1C5E87CA0010420E /* Discounts View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0F28A261C5E907F00910605 /* DiscountsCollectionViewController.h */,
+				D0F28A271C5E907F00910605 /* DiscountsCollectionViewController.m */,
+				D0F28A3A1C5E92A400910605 /* Discount Item View Cell */,
+			);
+			name = "Discounts View Controller";
+			sourceTree = "<group>";
+		};
 		D0A194BF1C5D47F10044D061 = {
 			isa = PBXGroup;
 			children = (
@@ -389,8 +459,11 @@
 				D0A194CF1C5D47F10044D061 /* AppDelegate.m */,
 				D02106C51C5D951600F66FEB /* Navigation View Controller */,
 				D02106C61C5D954300F66FEB /* Root / 1st View Controller */,
+				D02106981C5D719300F66FEB /* ImageCollectionViewController */,
 				D02106DE1C5DCEA900F66FEB /* RestaurantDetailsViewController */,
 				D021073A1C5DF57700F66FEB /* Map */,
+				D021074D1C5E73A800F66FEB /* Certificates View Controller */,
+				D09F576D1C5E87CA0010420E /* Discounts View Controller */,
 				D0A194D71C5D47F10044D061 /* Main.storyboard */,
 				D0A194DA1C5D47F10044D061 /* Assets.xcassets */,
 				D0A194DC1C5D47F10044D061 /* LaunchScreen.storyboard */,
@@ -426,6 +499,16 @@
 				D0A194F51C5D47F10044D061 /* Info.plist */,
 			);
 			path = sweUITests;
+			sourceTree = "<group>";
+		};
+		D0F28A3A1C5E92A400910605 /* Discount Item View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0F28A311C5E90F800910605 /* DiscountItemViewCell.h */,
+				D0F28A321C5E90F800910605 /* DiscountItemViewCell.m */,
+				D0F28A361C5E911400910605 /* DiscountItemViewCell.xib */,
+			);
+			name = "Discount Item View Cell";
 			sourceTree = "<group>";
 		};
 		E750C26E6D115B2451902D74 /* Frameworks */ = {
@@ -543,10 +626,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02106DB1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D09F575B1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */,
 				D02106B01C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 				D0A194DE1C5D47F10044D061 /* LaunchScreen.storyboard in Resources */,
 				D0A194DB1C5D47F10044D061 /* Assets.xcassets in Resources */,
 				D0A194D91C5D47F10044D061 /* Main.storyboard in Resources */,
+				D0F28A371C5E911400910605 /* DiscountItemViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +639,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F28A381C5E911400910605 /* DiscountItemViewCell.xib in Resources */,
 				D02106DC1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D09F575C1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */,
 				D02106B11C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,7 +650,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F28A391C5E911400910605 /* DiscountItemViewCell.xib in Resources */,
 				D02106DD1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D09F575D1C5E7D380010420E /* CertificateItemViewCell.xib in Resources */,
 				D02106B21C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,7 +716,11 @@
 				D02106521C5D69C900F66FEB /* GDPromotion.m in Sources */,
 				D02107351C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021064B1C5D655200F66FEB /* GDCategory.m in Sources */,
+				D021073D1C5E6E8B00F66FEB /* GDCertificate.m in Sources */,
+				D0F28A2E1C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */,
+				D09F57581C5E7D380010420E /* CertificateItemViewCell.m in Sources */,
 				D02107321C5DF54F00F66FEB /* MapViewController.m in Sources */,
+				D021074A1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */,
 				D02106A31C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106ED1C5DE59000F66FEB /* FredPlaying.m in Sources */,
 				D02106481C5D654100F66FEB /* GDAddress.m in Sources */,
@@ -639,6 +732,7 @@
 				D0A194D01C5D47F10044D061 /* AppDelegate.m in Sources */,
 				D021069C1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
 				D0A194CD1C5D47F10044D061 /* main.m in Sources */,
+				D0F28A331C5E90F800910605 /* DiscountItemViewCell.m in Sources */,
 				D02106D81C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
 				D02106E61C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
 				D021064E1C5D68FF00F66FEB /* GDLoyalty.m in Sources */,
@@ -652,8 +746,12 @@
 				D02106B41C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
 				D02107361C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021069D1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
+				D0F28A2F1C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */,
+				D0F28A341C5E90F800910605 /* DiscountItemViewCell.m in Sources */,
 				D02106A71C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
 				D02107331C5DF54F00F66FEB /* MapViewController.m in Sources */,
+				D09F57591C5E7D380010420E /* CertificateItemViewCell.m in Sources */,
+				D021074B1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */,
 				D02106A41C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106E71C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
 				D02106D91C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
@@ -668,8 +766,12 @@
 				D02106B51C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
 				D02107371C5DF54F00F66FEB /* MKMapView+ZoomLevel.m in Sources */,
 				D021069E1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
+				D0F28A301C5E907F00910605 /* DiscountsCollectionViewController.m in Sources */,
+				D0F28A351C5E90F800910605 /* DiscountItemViewCell.m in Sources */,
 				D02106A81C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
 				D02107341C5DF54F00F66FEB /* MapViewController.m in Sources */,
+				D09F575A1C5E7D380010420E /* CertificateItemViewCell.m in Sources */,
+				D021074C1C5E739B00F66FEB /* CertificatesCollectionViewController.m in Sources */,
 				D02106A51C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
 				D02106E81C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
 				D02106DA1C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,

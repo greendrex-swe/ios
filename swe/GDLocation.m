@@ -14,6 +14,7 @@
 @synthesize name;
 @synthesize locationDescription;
 @synthesize categories; //might need adapter/transformer
+@synthesize certificates; //might need adapter/transformer
 @synthesize address; //might need adapter/transformer
 @synthesize  latitude;
 @synthesize  longitude;
@@ -25,6 +26,7 @@
              @"name": @"name",
              @"locationDescription": @"locationDescription",
              @"categories": @"categories",
+             @"certificates": @"certificates",
              @"address": @"address",
              @"latitude": @"latitude",
              @"longitude": @"longitude"

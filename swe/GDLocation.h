@@ -17,6 +17,7 @@
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *locationDescription;
 @property (nonatomic, copy) NSArray *categories; //NSArray = immutable
+@property (nonatomic, copy) NSArray *certificates; //NSArray = immutable
 
 @property (nonatomic, copy) GDAddress *address;
 @property (nonatomic) double latitude;
