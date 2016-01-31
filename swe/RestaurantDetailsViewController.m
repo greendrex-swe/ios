@@ -64,14 +64,30 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
     restaurant.latitude = 45.5035249;
     restaurant.longitude = -73.5852088;
     
-    GDCategory *temp = [[GDCategory alloc] init];
-    temp.name = @"Human";
-    temp.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/1779688_10153794548280511_1868529904_n.jpg?oh=a7ea967872846ede76cd73d8d2bb5ca0&oe=572523BA";
-    GDCategory *temp2 = [[GDCategory alloc] init];
-    temp2.name = @"Inedible";
-    temp2.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
+    GDCategory *humane = [[GDCategory alloc] init];
+    humane.name = @"Humane";
+    humane.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/1779688_10153794548280511_1868529904_n.jpg?oh=a7ea967872846ede76cd73d8d2bb5ca0&oe=572523BA";
     
-    restaurant.categories = [[NSArray alloc] initWithObjects:temp, temp2, nil];
+    
+    GDCategory *organic = [[GDCategory alloc] init];
+    organic.name = @"Organic";
+    organic.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
+    
+    GDCategory *fairTrade = [[GDCategory alloc] init];
+    fairTrade.name = @"Fair Trade";
+    fairTrade.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
+    
+    GDCategory *social = [[GDCategory alloc] init];
+    social.name = @"Social";
+    social.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
+
+    GDCategory *local = [[GDCategory alloc] init];
+    local.name = @"Local";
+    local.iconUrl = @"https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/10336672_10156369316605511_5650637481601736014_n.jpg?oh=79da03eeda8220e18e77b45f8515b2c6&oe=572C425B";
+
+    
+    
+    restaurant.categories = [[NSArray alloc] initWithObjects:humane, organic, fairTrade, social, local, nil];
     
     
     self.restaurantView.text = restaurant.name;
