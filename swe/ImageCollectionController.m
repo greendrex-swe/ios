@@ -62,8 +62,6 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
         GDCategory *category = media[indexPath.row];
         [cell loadCategory:category];
     } else {
-        //NSLog(@"Media nil or count <= 0");
-        //NSLog(@"Media: %@", self.media); //media is not null, so it's the count vs indexPath.row ---> out of sync ---> mafroud hayne
     }
     
     
@@ -145,7 +143,6 @@ static NSString * const ImageCellIdentifier = @"ImageCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
-    NSLog(@"NAYYEK");
     UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
     ImageViewCell *castedCell = (ImageViewCell *) cell;
     

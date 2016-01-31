@@ -30,9 +30,9 @@
     // Initialization code
     [self setBackgroundColor:[UIColor whiteColor]];
     
-    self.imageTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapPic:)];
-    [self.imageTapGesture setDelegate:self];
-    [self.imageView addGestureRecognizer:self.imageTapGesture];
+    //self.imageTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapPic:)];
+    //[self.imageTapGesture setDelegate:self];
+    //[self.imageView addGestureRecognizer:self.imageTapGesture];
 
 }
 
@@ -58,9 +58,9 @@
     
     if (self) {
         
-        self.imageTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapPic:)];
-        [self.imageTapGesture setDelegate:self];
-        [self.imageView addGestureRecognizer:self.imageTapGesture];
+        //self.imageTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapPic:)];
+        //[self.imageTapGesture setDelegate:self];
+        //[self.imageView addGestureRecognizer:self.imageTapGesture];
         
     }
     
@@ -98,11 +98,6 @@
     [delegate pictureClicked:self.imageView.image AtInnerRow:innerRow OuterCollectionViewRow:outerRow];
 }
 
--(void)changeColor:(UIColor *) color {
-    NSLog(@"CHANGE COLOR");
-    self.backgroundColor = color;
-    self.imageView.backgroundColor = color;
-    [self layoutIfNeeded];
-}
+
 
 @end

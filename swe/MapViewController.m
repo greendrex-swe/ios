@@ -121,7 +121,6 @@
     
     for (GDLocation *l in self.locations)
     {
-        //NSLog(@"Reload Annotations");
         
         // retrieve latitude and longitude from the post entry
         location.latitude = l.latitude;
@@ -141,7 +140,6 @@
         // done iterating through the JSON results
         
         [newAnnotations addObject:newAnnotation];
-        //NSLog(@"\n\nAnnotation: %@\n", newAnnotation);
     }
     
     // when done, add the annotations
