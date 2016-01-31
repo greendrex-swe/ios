@@ -10,7 +10,7 @@
 
 @class RestaurantItemViewCell;
 
-@interface RestaurantsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface RestaurantsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UISearchBarDelegate>
 
 @property (strong, nonatomic) RestaurantItemViewCell *offscreenRestaurantItemCell;
 @property (strong, nonatomic) NSArray *restaurants;
