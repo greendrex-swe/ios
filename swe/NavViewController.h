@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  NavViewController.h
 //  swe
 //
 //  Created by Peter El Jiz on 2016-01-30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface NavViewController : UINavigationController
 
 @end
-

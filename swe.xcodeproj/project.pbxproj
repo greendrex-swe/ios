@@ -7,10 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02106421C5D63E600F66FEB /* GDLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106411C5D63E600F66FEB /* GDLocation.m */; };
+		D02106481C5D654100F66FEB /* GDAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106471C5D654100F66FEB /* GDAddress.m */; };
+		D021064B1C5D655200F66FEB /* GDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D021064A1C5D655200F66FEB /* GDCategory.m */; };
+		D021064E1C5D68FF00F66FEB /* GDLoyalty.m in Sources */ = {isa = PBXBuildFile; fileRef = D021064D1C5D68FF00F66FEB /* GDLoyalty.m */; };
+		D02106521C5D69C900F66FEB /* GDPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106511C5D69C900F66FEB /* GDPromotion.m */; };
+		D021069C1C5D71B000F66FEB /* ImageCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069A1C5D71B000F66FEB /* ImageCollectionController.m */; };
+		D021069D1C5D71B000F66FEB /* ImageCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069A1C5D71B000F66FEB /* ImageCollectionController.m */; };
+		D021069E1C5D71B000F66FEB /* ImageCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069A1C5D71B000F66FEB /* ImageCollectionController.m */; };
+		D02106A31C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */; };
+		D02106A41C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */; };
+		D02106A51C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */ = {isa = PBXBuildFile; fileRef = D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */; };
+		D02106A61C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */; };
+		D02106A71C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */; };
+		D02106A81C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */; };
+		D02106B01C5D73DA00F66FEB /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106AC1C5D73DA00F66FEB /* ImageViewCell.xib */; };
+		D02106B11C5D73DA00F66FEB /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106AC1C5D73DA00F66FEB /* ImageViewCell.xib */; };
+		D02106B21C5D73DA00F66FEB /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106AC1C5D73DA00F66FEB /* ImageViewCell.xib */; };
+		D02106B31C5D73DA00F66FEB /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106AD1C5D73DA00F66FEB /* ImageViewCell.m */; };
+		D02106B41C5D73DA00F66FEB /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106AD1C5D73DA00F66FEB /* ImageViewCell.m */; };
+		D02106B51C5D73DA00F66FEB /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106AD1C5D73DA00F66FEB /* ImageViewCell.m */; };
+		D02106BF1C5D7C2500F66FEB /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106BE1C5D7C2500F66FEB /* NavViewController.m */; };
+		D02106C21C5D817F00F66FEB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106C11C5D817F00F66FEB /* RootViewController.m */; };
+		D02106C91C5DA19200F66FEB /* RestaurantsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106C81C5DA19200F66FEB /* RestaurantsCollectionViewController.m */; };
+		D02106D81C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106D61C5DA33C00F66FEB /* RestaurantItemViewCell.m */; };
+		D02106D91C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106D61C5DA33C00F66FEB /* RestaurantItemViewCell.m */; };
+		D02106DA1C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106D61C5DA33C00F66FEB /* RestaurantItemViewCell.m */; };
+		D02106DB1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106D71C5DA33C00F66FEB /* RestaurantItemViewCell.xib */; };
+		D02106DC1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106D71C5DA33C00F66FEB /* RestaurantItemViewCell.xib */; };
+		D02106DD1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02106D71C5DA33C00F66FEB /* RestaurantItemViewCell.xib */; };
+		D02106E61C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */; };
+		D02106E71C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */; };
+		D02106E81C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */; };
+		D02106ED1C5DE59000F66FEB /* FredPlaying.m in Sources */ = {isa = PBXBuildFile; fileRef = D02106EC1C5DE59000F66FEB /* FredPlaying.m */; };
 		D0A194CD1C5D47F10044D061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CC1C5D47F10044D061 /* main.m */; };
 		D0A194D01C5D47F10044D061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194CF1C5D47F10044D061 /* AppDelegate.m */; };
-		D0A194D31C5D47F10044D061 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194D21C5D47F10044D061 /* FirstViewController.m */; };
-		D0A194D61C5D47F10044D061 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A194D51C5D47F10044D061 /* SecondViewController.m */; };
 		D0A194D91C5D47F10044D061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194D71C5D47F10044D061 /* Main.storyboard */; };
 		D0A194DB1C5D47F10044D061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A194DA1C5D47F10044D061 /* Assets.xcassets */; };
 		D0A194DE1C5D47F10044D061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A194DC1C5D47F10044D061 /* LaunchScreen.storyboard */; };
@@ -40,14 +71,44 @@
 		03E6155C776708245F2CE988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		07F1E54B4E960A2BFB539A41 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A978F58B106BC970DD7AB858 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02106401C5D63E600F66FEB /* GDLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLocation.h; sourceTree = "<group>"; };
+		D02106411C5D63E600F66FEB /* GDLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLocation.m; sourceTree = "<group>"; };
+		D02106461C5D654100F66FEB /* GDAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDAddress.h; sourceTree = "<group>"; };
+		D02106471C5D654100F66FEB /* GDAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDAddress.m; sourceTree = "<group>"; };
+		D02106491C5D655200F66FEB /* GDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCategory.h; sourceTree = "<group>"; };
+		D021064A1C5D655200F66FEB /* GDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCategory.m; sourceTree = "<group>"; };
+		D021064C1C5D68FF00F66FEB /* GDLoyalty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLoyalty.h; sourceTree = "<group>"; };
+		D021064D1C5D68FF00F66FEB /* GDLoyalty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLoyalty.m; sourceTree = "<group>"; };
+		D02106501C5D69C900F66FEB /* GDPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPromotion.h; sourceTree = "<group>"; };
+		D02106511C5D69C900F66FEB /* GDPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPromotion.m; sourceTree = "<group>"; };
+		D021069A1C5D71B000F66FEB /* ImageCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionController.m; sourceTree = "<group>"; };
+		D021069B1C5D71B000F66FEB /* ImageCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionController.h; sourceTree = "<group>"; };
+		D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebRotationFixed.m"; sourceTree = "<group>"; };
+		D02106A01C5D721100F66FEB /* UIImageView+WebRotationFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebRotationFixed.h"; sourceTree = "<group>"; };
+		D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OrientationFix.m"; sourceTree = "<group>"; };
+		D02106A21C5D721100F66FEB /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		D02106AC1C5D73DA00F66FEB /* ImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
+		D02106AD1C5D73DA00F66FEB /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		D02106AE1C5D73DA00F66FEB /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		D02106AF1C5D73DA00F66FEB /* ImageViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCellDelegate.h; sourceTree = "<group>"; };
+		D02106BD1C5D7C2500F66FEB /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		D02106BE1C5D7C2500F66FEB /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		D02106C01C5D817F00F66FEB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D02106C11C5D817F00F66FEB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D02106C31C5D942000F66FEB /* ImageCollectionControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionControllerDelegate.h; sourceTree = "<group>"; };
+		D02106C71C5DA19200F66FEB /* RestaurantsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantsCollectionViewController.h; sourceTree = "<group>"; };
+		D02106C81C5DA19200F66FEB /* RestaurantsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantsCollectionViewController.m; sourceTree = "<group>"; };
+		D02106D51C5DA33C00F66FEB /* RestaurantItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantItemViewCell.h; sourceTree = "<group>"; };
+		D02106D61C5DA33C00F66FEB /* RestaurantItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantItemViewCell.m; sourceTree = "<group>"; };
+		D02106D71C5DA33C00F66FEB /* RestaurantItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantItemViewCell.xib; sourceTree = "<group>"; };
+		D02106E41C5DCEDF00F66FEB /* RestaurantDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailsViewController.h; sourceTree = "<group>"; };
+		D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailsViewController.m; sourceTree = "<group>"; };
+		D02106EB1C5DE59000F66FEB /* FredPlaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FredPlaying.h; sourceTree = "<group>"; };
+		D02106EC1C5DE59000F66FEB /* FredPlaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FredPlaying.m; sourceTree = "<group>"; };
 		D0A194C81C5D47F10044D061 /* swe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A194CC1C5D47F10044D061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0A194CE1C5D47F10044D061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0A194CF1C5D47F10044D061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0A194D11C5D47F10044D061 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D0A194D21C5D47F10044D061 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D0A194D41C5D47F10044D061 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D0A194D51C5D47F10044D061 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D0A194D81C5D47F10044D061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0A194DA1C5D47F10044D061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A194DD1C5D47F10044D061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +156,168 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D021063F1C5D63A800F66FEB /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D02106441C5D651700F66FEB /* Address */,
+				D02106451C5D652300F66FEB /* Categories */,
+				D02106431C5D651100F66FEB /* Location */,
+				D021064F1C5D690300F66FEB /* Loyalty */,
+				D02106531C5D69CE00F66FEB /* Promotion */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		D02106431C5D651100F66FEB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				D02106401C5D63E600F66FEB /* GDLocation.h */,
+				D02106411C5D63E600F66FEB /* GDLocation.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		D02106441C5D651700F66FEB /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				D02106461C5D654100F66FEB /* GDAddress.h */,
+				D02106471C5D654100F66FEB /* GDAddress.m */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		D02106451C5D652300F66FEB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D02106491C5D655200F66FEB /* GDCategory.h */,
+				D021064A1C5D655200F66FEB /* GDCategory.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D021064F1C5D690300F66FEB /* Loyalty */ = {
+			isa = PBXGroup;
+			children = (
+				D021064C1C5D68FF00F66FEB /* GDLoyalty.h */,
+				D021064D1C5D68FF00F66FEB /* GDLoyalty.m */,
+			);
+			name = Loyalty;
+			sourceTree = "<group>";
+		};
+		D02106531C5D69CE00F66FEB /* Promotion */ = {
+			isa = PBXGroup;
+			children = (
+				D02106501C5D69C900F66FEB /* GDPromotion.h */,
+				D02106511C5D69C900F66FEB /* GDPromotion.m */,
+			);
+			name = Promotion;
+			sourceTree = "<group>";
+		};
+		D02106981C5D719300F66FEB /* ImageCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D021069B1C5D71B000F66FEB /* ImageCollectionController.h */,
+				D021069A1C5D71B000F66FEB /* ImageCollectionController.m */,
+				D02106C41C5D942300F66FEB /* Controller Delegate */,
+				D02106B61C5D73DF00F66FEB /* ImageViewCell */,
+				D02106AB1C5D727A00F66FEB /* Delegate */,
+			);
+			name = ImageCollectionViewController;
+			sourceTree = "<group>";
+		};
+		D02106A91C5D722700F66FEB /* UIImageView+WebRotationFix */ = {
+			isa = PBXGroup;
+			children = (
+				D021069F1C5D721100F66FEB /* UIImageView+WebRotationFixed.m */,
+				D02106A01C5D721100F66FEB /* UIImageView+WebRotationFixed.h */,
+			);
+			name = "UIImageView+WebRotationFix";
+			sourceTree = "<group>";
+		};
+		D02106AA1C5D723200F66FEB /* UIImageView+OrientationFix */ = {
+			isa = PBXGroup;
+			children = (
+				D02106A11C5D721100F66FEB /* UIImage+OrientationFix.m */,
+				D02106A21C5D721100F66FEB /* UIImage+OrientationFix.h */,
+			);
+			name = "UIImageView+OrientationFix";
+			sourceTree = "<group>";
+		};
+		D02106AB1C5D727A00F66FEB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		D02106B61C5D73DF00F66FEB /* ImageViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D02106AE1C5D73DA00F66FEB /* ImageViewCell.h */,
+				D02106AD1C5D73DA00F66FEB /* ImageViewCell.m */,
+				D02106AC1C5D73DA00F66FEB /* ImageViewCell.xib */,
+				D02106AF1C5D73DA00F66FEB /* ImageViewCellDelegate.h */,
+			);
+			name = ImageViewCell;
+			sourceTree = "<group>";
+		};
+		D02106C41C5D942300F66FEB /* Controller Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D02106C31C5D942000F66FEB /* ImageCollectionControllerDelegate.h */,
+			);
+			name = "Controller Delegate";
+			sourceTree = "<group>";
+		};
+		D02106C51C5D951600F66FEB /* Navigation View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D02106BD1C5D7C2500F66FEB /* NavViewController.h */,
+				D02106BE1C5D7C2500F66FEB /* NavViewController.m */,
+			);
+			name = "Navigation View Controller";
+			sourceTree = "<group>";
+		};
+		D02106C61C5D954300F66FEB /* Root / 1st View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D02106C01C5D817F00F66FEB /* RootViewController.h */,
+				D02106C11C5D817F00F66FEB /* RootViewController.m */,
+				D02106981C5D719300F66FEB /* ImageCollectionViewController */,
+				D02106D41C5DA2D900F66FEB /* Restaurants View */,
+			);
+			name = "Root / 1st View Controller";
+			sourceTree = "<group>";
+		};
+		D02106D31C5DA2CF00F66FEB /* Restaurant Item Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D02106D51C5DA33C00F66FEB /* RestaurantItemViewCell.h */,
+				D02106D61C5DA33C00F66FEB /* RestaurantItemViewCell.m */,
+				D02106D71C5DA33C00F66FEB /* RestaurantItemViewCell.xib */,
+			);
+			name = "Restaurant Item Cell";
+			sourceTree = "<group>";
+		};
+		D02106D41C5DA2D900F66FEB /* Restaurants View */ = {
+			isa = PBXGroup;
+			children = (
+				D02106C71C5DA19200F66FEB /* RestaurantsCollectionViewController.h */,
+				D02106C81C5DA19200F66FEB /* RestaurantsCollectionViewController.m */,
+				D02106D31C5DA2CF00F66FEB /* Restaurant Item Cell */,
+			);
+			name = "Restaurants View";
+			sourceTree = "<group>";
+		};
+		D02106DE1C5DCEA900F66FEB /* RestaurantDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D02106E41C5DCEDF00F66FEB /* RestaurantDetailsViewController.h */,
+				D02106E51C5DCEDF00F66FEB /* RestaurantDetailsViewController.m */,
+			);
+			name = RestaurantDetailsViewController;
+			sourceTree = "<group>";
+		};
 		D0A194BF1C5D47F10044D061 = {
 			isa = PBXGroup;
 			children = (
@@ -120,17 +343,21 @@
 		D0A194CA1C5D47F10044D061 /* swe */ = {
 			isa = PBXGroup;
 			children = (
+				D021063F1C5D63A800F66FEB /* Model Objects */,
+				D02106A91C5D722700F66FEB /* UIImageView+WebRotationFix */,
+				D02106AA1C5D723200F66FEB /* UIImageView+OrientationFix */,
 				D0A194CE1C5D47F10044D061 /* AppDelegate.h */,
 				D0A194CF1C5D47F10044D061 /* AppDelegate.m */,
-				D0A194D11C5D47F10044D061 /* FirstViewController.h */,
-				D0A194D21C5D47F10044D061 /* FirstViewController.m */,
-				D0A194D41C5D47F10044D061 /* SecondViewController.h */,
-				D0A194D51C5D47F10044D061 /* SecondViewController.m */,
+				D02106C51C5D951600F66FEB /* Navigation View Controller */,
+				D02106C61C5D954300F66FEB /* Root / 1st View Controller */,
+				D02106DE1C5DCEA900F66FEB /* RestaurantDetailsViewController */,
 				D0A194D71C5D47F10044D061 /* Main.storyboard */,
 				D0A194DA1C5D47F10044D061 /* Assets.xcassets */,
 				D0A194DC1C5D47F10044D061 /* LaunchScreen.storyboard */,
 				D0A194DF1C5D47F10044D061 /* Info.plist */,
 				D0A194CB1C5D47F10044D061 /* Supporting Files */,
+				D02106EB1C5DE59000F66FEB /* FredPlaying.h */,
+				D02106EC1C5DE59000F66FEB /* FredPlaying.m */,
 			);
 			path = swe;
 			sourceTree = "<group>";
@@ -275,6 +502,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02106DB1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D02106B01C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 				D0A194DE1C5D47F10044D061 /* LaunchScreen.storyboard in Resources */,
 				D0A194DB1C5D47F10044D061 /* Assets.xcassets in Resources */,
 				D0A194D91C5D47F10044D061 /* Main.storyboard in Resources */,
@@ -285,6 +514,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02106DC1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D02106B11C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +523,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02106DD1C5DA33C00F66FEB /* RestaurantItemViewCell.xib in Resources */,
+				D02106B21C5D73DA00F66FEB /* ImageViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +583,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A194D61C5D47F10044D061 /* SecondViewController.m in Sources */,
+				D02106B31C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
+				D02106521C5D69C900F66FEB /* GDPromotion.m in Sources */,
+				D021064B1C5D655200F66FEB /* GDCategory.m in Sources */,
+				D02106A31C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
+				D02106ED1C5DE59000F66FEB /* FredPlaying.m in Sources */,
+				D02106481C5D654100F66FEB /* GDAddress.m in Sources */,
+				D02106C91C5DA19200F66FEB /* RestaurantsCollectionViewController.m in Sources */,
+				D02106BF1C5D7C2500F66FEB /* NavViewController.m in Sources */,
+				D02106A61C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
+				D02106421C5D63E600F66FEB /* GDLocation.m in Sources */,
+				D02106C21C5D817F00F66FEB /* RootViewController.m in Sources */,
 				D0A194D01C5D47F10044D061 /* AppDelegate.m in Sources */,
-				D0A194D31C5D47F10044D061 /* FirstViewController.m in Sources */,
+				D021069C1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
 				D0A194CD1C5D47F10044D061 /* main.m in Sources */,
+				D02106D81C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
+				D02106E61C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
+				D021064E1C5D68FF00F66FEB /* GDLoyalty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +607,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02106B41C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
+				D021069D1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
+				D02106A71C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
+				D02106A41C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
+				D02106E71C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
+				D02106D91C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
 				D0A194E91C5D47F10044D061 /* sweTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +621,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02106B51C5D73DA00F66FEB /* ImageViewCell.m in Sources */,
+				D021069E1C5D71B000F66FEB /* ImageCollectionController.m in Sources */,
+				D02106A81C5D721100F66FEB /* UIImage+OrientationFix.m in Sources */,
+				D02106A51C5D721100F66FEB /* UIImageView+WebRotationFixed.m in Sources */,
+				D02106E81C5DCEDF00F66FEB /* RestaurantDetailsViewController.m in Sources */,
+				D02106DA1C5DA33C00F66FEB /* RestaurantItemViewCell.m in Sources */,
 				D0A194F41C5D47F10044D061 /* sweUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +754,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greendex.swe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +767,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greendex.swe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
