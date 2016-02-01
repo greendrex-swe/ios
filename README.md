@@ -1,3 +1,3 @@
-# Greendrex app - Proof of concept 
+# Proof of concept 
 
-This is a proof of concept for Montreal's Startup Weekend on Sustainable Cities.
+This is a proof of concept app developed during Montreal's Startup Weekend / Hackathon on Sustainable Cities.
